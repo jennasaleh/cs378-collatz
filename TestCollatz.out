@@ -23,7 +23,7 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/OTkzOTk4MDo0NzBiZWI2MzQwY2MwNGJmNDU4N2MzODliMDRiZTViYzo3YzQ3MGEwN2M3NmVhY2ViNTc5NzA0M2ZkMTViZTVhMGRjMzQ2Zjg3N2NlMzA3MmYxYzYwNzBiOTA5NmZkYzI5--ea42d480077958087cb9299143a9a6853a79eab0">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/OTkzOTk4MDpkNjNiODRiNTUzMzEyNGE4ZmQ5MjY4N2VhYjg3MzBhYzo3ZGIwMTg5N2FiYzhhMTViOGUwZjk1ZjAwMmM3MTIwMjk0Zjk0MTQ1OGZjN2MwYTk5ZTYxZWM5Y2M1MGU2YmUw--2db17c306a89eb5fdf86fdb540bb362505fada2e">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
 
@@ -32,7 +32,7 @@
     <meta name="selected-link" value="repo_source" data-pjax-transient>
       <meta name="google-analytics" content="UA-3769691-2">
 
-    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="80539074:1F58:9D45A7C:557F9B10" name="octolytics-dimension-request_id" /><meta content="9939980" name="octolytics-actor-id" /><meta content="jennasaleh" name="octolytics-actor-login" /><meta content="103d2c35a941e15caffb120db6a0954eedf920d0c6f521dd3f8a617517a41757" name="octolytics-actor-hash" />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="48B131C7:5FD7:751992F:557E4A25" name="octolytics-dimension-request_id" /><meta content="9939980" name="octolytics-actor-id" /><meta content="jennasaleh" name="octolytics-actor-login" /><meta content="103d2c35a941e15caffb120db6a0954eedf920d0c6f521dd3f8a617517a41757" name="octolytics-actor-hash" />
     
     <meta content="Rails, view, blob#show" name="analytics-event" />
     <meta class="js-ga-set" name="dimension1" content="Logged In">
@@ -46,15 +46,15 @@
 
 
     <meta content="authenticity_token" name="csrf-param" />
-<meta content="cv9Yyb/WjQlydrzdAAYo+gw3CcVjyZAMAa251Mz+Diivb/XoSOqKI73ySCvi+mIC2xfrK+5jRo9AsADrvorGNw==" name="csrf-token" />
+<meta content="BkVfPBTCVO5QvchO8djOCIbq/Ce67V122jiL0/uLGRAKgAlEzgoBLPG4XWW+csRFlaDz8p/fC2zGXNRtighXag==" name="csrf-token" />
 
-    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github/index-f7b28ffd0923c7a4e065512d49f5b1ed46673f05a0571fc77cbd2d2901354841.css" media="all" rel="stylesheet" />
-    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2/index-c97c34f354d881281585ec0a7f62b8a8c7c53c18bf0d31f189803de93868c450.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github/index-10789d1d56bfe8c960a6caf2954ab053c3fac748d581415395f986779781b4a7.css" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2/index-8b4acc27f06d948d9a73d77849e0fe0b98d8636c85e2fe0e6c4b8762dec9fd3d.css" media="all" rel="stylesheet" />
     
     
 
 
-    <meta http-equiv="x-pjax-version" content="c729f4c402266efe9bf95c4e5690237f">
+    <meta http-equiv="x-pjax-version" content="62b85260d6deaadccdaa2c3c0e0b0c94">
 
       
   <meta name="description" content="Contribute to cs378c development by creating an account on GitHub.">
@@ -66,7 +66,7 @@
   </head>
 
 
-  <body class="logged_in  env-production linux vis-public page-blob">
+  <body class="logged_in  env-production windows vis-public page-blob">
     <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
     <div class="wrapper">
       
@@ -194,7 +194,7 @@
           Settings
         </a>
 
-        <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="w4CNxfB/tE/wF9WPjfsiSdd3bxrozHHNeyChnNsukPzlF5Fmr1bY3oRGBqZ4h5apiOsRuQZxh49o7Tb/+IDKRw==" /></div>
+        <form accept-charset="UTF-8" action="/logout" class="logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="8u8ab8lgFfcQkwTWbwclIKCjp65inBH7jfZFPMb5iIIrbfqLOUzt0ccsiw6qxUgNpiaE4T2K5dErEYu6SQOWgA==" /></div>
           <button class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -225,7 +225,7 @@
 <ul class="pagehead-actions">
 
   <li>
-      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="a+YKwkLzpdOOVn2+gwYfjjgdycU/c6H/1lgmX6ODnkWcTOf9U6dcW+XZZ04upAvW9RFERjPnNkTf1gRF+dwDDQ==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="37020007" />
+      <form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="cKR+AH8ydcRDK6+G31VT0lU2siib4egTmX/pgjpBO7SzkGXK1i25UkKYQ/khaE/77WdYB68RyJv/CZGcEBNUKA==" /></div>    <input id="repository_id" name="repository_id" type="hidden" value="37020007" />
 
       <div class="select-menu js-menu-container js-select-menu">
         <a href="/gpdowning/cs378c/subscription"
@@ -300,7 +300,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <form accept-charset="UTF-8" action="/gpdowning/cs378c/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="dxts84cs+NKQWPBumUr08XqWC7K1EZpbs1g1Q0nCtl6QuGGcilsspMb8xH7oR7BBqn9JLz3T1k2QrurNk1+4CQ==" /></div>
+    <form accept-charset="UTF-8" action="/gpdowning/cs378c/unstar" class="js-toggler-form starred js-unstar-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="8XoRLisQG9lH5wuvGgc8e9Kb7i/NDW1QzaVIBlmni2vaufGoPmfZ8xOaZNmm5XcKdEWhW3pX112ctYtjUPP76g==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Unstar this repository" title="Unstar gpdowning/cs378c"
@@ -312,7 +312,7 @@
           0
         </a>
 </form>
-    <form accept-charset="UTF-8" action="/gpdowning/cs378c/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="TmK9Dd3omBRzLQ//DQ57pUVfAlRzzGJs8vXm8gNwPMgkbXNbNaOSWgYb/4a3E/RCSANOsDZBI5hs9NktQXKYOA==" /></div>
+    <form accept-charset="UTF-8" action="/gpdowning/cs378c/star" class="js-toggler-form unstarred js-star-button" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="k7XZUcm+eAHfjQfg5NDbGkrlYdpij+qZSSsyU92cJOhhLgemgHE+7kNbG5+dDdep+Bj7/VOwMKajveuD2fXknw==" /></div>
       <button
         class="btn btn-sm btn-with-count js-toggler-target"
         aria-label="Star this repository" title="Star gpdowning/cs378c"
@@ -328,7 +328,7 @@
   </li>
 
         <li>
-          <form accept-charset="UTF-8" action="/gpdowning/cs378c/fork" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="dht+HR6KlJA1QqRen471A9XfbTk5RLMylGsiTC/OHjGHhWkddINobuI7TY7cgNN/mvBicUnhvo/PD17/+96H8w==" /></div>
+          <form accept-charset="UTF-8" action="/gpdowning/cs378c/fork" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="eold03GKInHjn09enDkO1Ay7LW58fsXQ1GBr9tJVc+OMBR6Vdb2awh8neqjNo7uNYpRPcGsGzSuqVzeJ+w1qSQ==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -338,7 +338,7 @@
               <span class="octicon octicon-repo-forked"></span>
               Fork
             </button>
-            <a href="/gpdowning/cs378c/network" class="social-count">4</a>
+            <a href="/gpdowning/cs378c/network" class="social-count">0</a>
 </form>        </li>
 
 </ul>
@@ -454,13 +454,17 @@
 
 
 <div class="clone-options">You can clone with
-  <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="2BWcwr9l7H2I70KyQvnVDh8bpLS28ps9PBt5xRWuEWJJnk1YrqidMvub4iQilOSg+NU66eDN7VZLdmdu5nOa+w==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="MYzv4bIGKGW7a/Xtrfi2gNnzKwOqEl4Yf/nbsX87GfXrAsrF/DzJd8nO0oYWKt/J4lPC2acZQiOF0KE+PCMxCw==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="clCpZF4S7a4PqUHN847VndGxQCeklh6Rt2tikUbD6cxeLE7YNMtjK3s/Xvth35NGNbHIACzcWj2SRbIkXp/BFw==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+  <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="AzsKKUvrXHnGQcUV40dRAbKNFTTUnkmA3Gzz7m+9JUII8jE2KmGQUmeUbTiuCFmeqehs7PZCfSVIpFG3hmxL0w==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form>, <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=ssh&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="+8p6EvPty/6MQH4NfVxL23RrfAmrfuxTBXYGpPCBIfXwMXW7hXELJ13OQrQGTIVR289Yc129rnPVQyzvbpedcA==" /></div><button class="btn-link js-clone-selector" data-protocol="ssh" type="submit">SSH</button></form>, or <form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form is-enabled" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="nmsBaUZ7Yre35DQYPCjsW1ZPu2fD6/xrgGCXqFVvgyqV4ZST4sTTFXnYJNOx+0oiHjoNkvAjJfW9QGA1MluQgQ==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
   <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
     <span class="octicon octicon-question"></span>
   </a>
 </div>
 
 
+  <a href="https://windows.github.com" class="btn btn-sm sidebar-button" title="Save gpdowning/cs378c to your computer and use it in GitHub Desktop." aria-label="Save gpdowning/cs378c to your computer and use it in GitHub Desktop.">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
 
 
                 <a href="/gpdowning/cs378c/archive/master.zip"
@@ -608,13 +612,19 @@
         <a href="/gpdowning/cs378c/commits/master/TestCollatz.sample.out" class="btn btn-sm " rel="nofollow">History</a>
       </div>
 
+        <a class="octicon-btn tooltipped tooltipped-nw"
+           href="https://windows.github.com"
+           aria-label="Open this file in GitHub for Windows"
+           data-ga-click="Repository, open with desktop, type:windows">
+            <span class="octicon octicon-device-desktop"></span>
+        </a>
 
-            <form accept-charset="UTF-8" action="/gpdowning/cs378c/edit/master/TestCollatz.sample.out" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="QgVdPg2gdAKwujo9iW5Emv1XCQUa8jKBVaUbvbLmMOz2EV1SI9GM9TIsyrbFMiyNg45PxM74SGsl8/6PlTnY+Q==" /></div>
+            <form accept-charset="UTF-8" action="/gpdowning/cs378c/edit/master/TestCollatz.sample.out" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="agtFcXFknnqo6MZCS8HVIcvwbe5lKC70x0MhujbCWVXLiYxc5AaI3clxT4BJ4FsqgGEj/c38Rm8q31HQoRhynw==" /></div>
               <button class="octicon-btn tooltipped tooltipped-n" type="submit" aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
                 <span class="octicon octicon-pencil"></span>
               </button>
 </form>
-          <form accept-charset="UTF-8" action="/gpdowning/cs378c/delete/master/TestCollatz.sample.out" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="zqRokTQLvKONxDpvg69p92L7NjX8gSYj1a2khW0nCPaLfhRnucQjnGxYyt4McyjUU/+2UQiD0QhPAoYnWfQwGQ==" /></div>
+          <form accept-charset="UTF-8" action="/gpdowning/cs378c/delete/master/TestCollatz.sample.out" class="inline-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="glNmbykItlfCiuehZ90/gpIsQao6MKsK4lrCjO23OjSLhtumvSP5+G9NRamEm8ePxMTXluNpDtBGxioTRjrKjg==" /></div>
             <button class="octicon-btn octicon-btn-danger tooltipped tooltipped-n" type="submit" aria-label="Fork this project and delete this file" data-disable-with>
               <span class="octicon octicon-trashcan"></span>
             </button>
@@ -1927,7 +1937,7 @@
       <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2015 <span title="0.06294s from github-fe129-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2015 <span title="0.05746s from github-fe118-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
@@ -1969,8 +1979,8 @@
     </div>
 
 
-      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-ede12d541512d70525789d7832b10f3ffdaaef2af18a8f1569d8c9586dc81874.js"></script>
-      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github/index-ea1d68c8d16ba2989f4dfb66426f87fc32610d0fbde5eff527db451a255d609e.js"></script>
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-dea2e78f4b34a1f3429ade94f98bd25fad6bbe8d28635a93d9caeb68e3c2d258.js"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github/index-f2bb67dd64e6f69f40f179e8bdddd466056de1bf6e2e88b013c8367c41ad703d.js"></script>
       
       
   </body>
