@@ -19,6 +19,8 @@
 
 using namespace std;
 
+#define SIZE 50000
+
 // ------------
 // collatz_read
 // ------------
@@ -39,8 +41,6 @@ int collatz_eval (int i, int j)
     // error checking and weird cases
     assert(i > 0);
     assert(j > 0);
-    assert(i < 1000000);
-    assert(j < 1000000);
 
     if( (i==1) & (j==1))
         return 1;
@@ -59,9 +59,20 @@ int collatz_eval (int i, int j)
         i = j;
         j = temp;
     }
- 
-    while (i <= j)
+
+
+    /******************* CACHE *******************/
+    int cache[SIZE] = {0};
+
+    /*******************************************************/
+
+    while (i <= j) 
     {
+        if((i < SIZE) && (cache[i] != 0))
+        {
+            return cache[i];
+        }
+
         k = i;
 
         while (k != 1)
@@ -74,26 +85,27 @@ int collatz_eval (int i, int j)
             else 
             {
                 k = k / 2;
-                currentcycle++;
+                currentcycle++;                    
             } 
         }
 
         if(k == 1)
         {   
-
             if(currentcycle > maxcycle)
             {
-                maxcycle = currentcycle;  
+                maxcycle = currentcycle; 
+                if(i < SIZE)
+                {
+                    cache[i] = maxcycle;
+                }
             } 
         }     
-
         currentcycle = 1;         
         i++;  
     }
-
     return maxcycle;
-
 }
+
 
 // -------------
 // collatz_print
