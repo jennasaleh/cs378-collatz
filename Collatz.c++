@@ -59,7 +59,7 @@ int collatz_eval (int i, int j)
         i = j;
         j = temp;
     }
-
+ 
     while (i <= j)
     {
         k = i;
