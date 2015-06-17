@@ -33,7 +33,7 @@ pair<int, int> collatz_read (const string& s) {
     return make_pair(i, j);}
 
 // ------------
-// collatz_eval
+// collatz_eval 
 // ------------
 
 int collatz_eval (int i, int j) 
@@ -66,7 +66,7 @@ int collatz_eval (int i, int j)
 
     /*******************************************************/
 
-    while (i <= j)
+    while (i <= j) 
     {
         if((i < SIZE) && (cache[i] != 0))
         {
@@ -105,6 +105,7 @@ int collatz_eval (int i, int j)
     }
     return maxcycle;
 }
+
 
 // -------------
 // collatz_print
