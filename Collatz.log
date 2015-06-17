@@ -1,0 +1,119 @@
+commit fdd67311396e5b081bb2ff4cf8ba067a122fc8f7
+Author: Jenna Saleh <jenna900@cs.utexas.edU>
+Date:   Wed Jun 17 18:38:48 2015 -0500
+
+    added #ifdef feature
+
+commit 03390e37f57b290a462dbe8e616790bb1721adb8
+Author: Jenna Saleh <jenna900@cs.utexas.edU>
+Date:   Wed Jun 17 18:32:51 2015 -0500
+
+    want to build on travis
+
+commit 15c627acc3c27c34bf95d5fc15effb4594e1f8dd
+Author: Jenna Saleh <jenna900@cs.utexas.edU>
+Date:   Wed Jun 17 18:19:31 2015 -0500
+
+    finished implementing a simple cache
+
+commit ff488fec2e368ecf67998101f122bf8253523af2
+Author: Jenna Saleh <jenna900@cs.utexas.edU>
+Date:   Wed Jun 17 12:58:11 2015 -0500
+
+    created >100 lines of unit test
+
+commit 7c168a82e666965267973b37ae764514abe74d1a
+Author: Jenna Saleh <jenna900@cs.utexas.edU>
+Date:   Tue Jun 16 21:05:00 2015 -0500
+
+    building on travis
+
+commit 6684d497e0adf661da613fea1752cdbfc8c93522
+Author: Jenna Saleh <jenna900@cs.utexas.edU>
+Date:   Tue Jun 16 20:27:12 2015 -0500
+
+    finished putting tests and got all test passing
+
+commit 844efeca88a3c42f55e8e736ff6fa1d53d93b448
+Author: Jenna Saleh <jenna900@cs.utexas.edU>
+Date:   Tue Jun 16 16:49:40 2015 -0500
+
+    added at least 3 more test cases for each function in TestCollatz.c++
+
+commit 33538c03c4dacabc6559854b5a0a798e48b29499
+Author: Jenna Saleh <jenna900@cs.utexas.edU>
+Date:   Tue Jun 16 15:58:33 2015 -0500
+
+    edited TestCollatz.c++ to test for the correct output instead of the default output value of 1 for all inputs
+
+commit 8cb014cd16a6caac80cc6917c92c1529f1700745
+Author: Jenna Saleh <jenna900@cs.utexas.edU>
+Date:   Tue Jun 16 00:02:40 2015 -0500
+
+    copying code files from clone of public class repo to private class repo after running make test
+
+commit 9f9b9f510c8e556a4e7370a96a0f99a1f3370a22
+Author: Jenna Saleh <jenna900@cs.utexas.edU>
+Date:   Mon Jun 15 23:00:47 2015 -0500
+
+    changed file formats from html to c++ (im dumb)
+
+commit bd47bb9c2e3c4c5bc31a07624aa6a9feb06f7fb3
+Author: Jenna Saleh <jenna900@cs.utexas.edU>
+Date:   Mon Jun 15 22:53:28 2015 -0500
+
+    undid latest changes
+
+commit ac3c3e13b2846b2ebf40a5f5feaf8ddd4246ebe5
+Author: Jenna Saleh <jenna900@cs.utexas.edU>
+Date:   Mon Jun 15 22:43:18 2015 -0500
+
+    trying to solve makefile problems by changing file names to example of successful travis build on professor's git account
+
+commit cb496ee4d0df19ba21a5d1b630f02eb396c1f495
+Author: Jenna Saleh <jenna900@cs.utexas.edU>
+Date:   Mon Jun 15 21:54:15 2015 -0500
+
+    trying to solve makefile problems
+
+commit 20ca67925d109dfd20086891c2a274a5b8316f5c
+Author: Jenna Saleh <jenna900@cs.utexas.edU>
+Date:   Mon Jun 15 21:35:33 2015 -0500
+
+    fixed typo in .travis.yml file
+
+commit 64524f4a74a81b95148f6ddb9a3f3520789c2c66
+Author: Jenna Saleh <jenna900@cs.utexas.edU>
+Date:   Mon Jun 15 21:34:16 2015 -0500
+
+    edited .travis.yml file
+
+commit da119986630bd8f897548ebef4a6db77108c41ec
+Author: Jenna Saleh <jenna900@cs.utexas.edU>
+Date:   Mon Jun 15 21:26:18 2015 -0500
+
+    changed file names
+
+commit a290205732fe9adbb9ce7f2ffd4900ba41f0d27d
+Author: Jenna Saleh <jenna900@cs.utexas.edU>
+Date:   Mon Jun 15 21:04:28 2015 -0500
+
+    made changes to travis.yml so only builds on dev branch
+
+commit 4a1975bede2318b1032cbcde701e85d1e0c8c02c
+Author: Jenna Saleh <jenna900@cs.utexas.edU>
+Date:   Mon Jun 15 20:03:57 2015 -0500
+
+    add .travis.yml file since somehow it was deleted
+
+commit baae115954491611dc820e967d8ba1d3fb41ed67
+Author: Jenna Saleh <jenna900@cs.utexas.edu>
+Date:   Mon Jun 15 14:29:05 2015 -0500
+
+    first commit, add files to repo
+
+commit 8ab623bb7afa784e0375abd4aeb1681f8f93acbe
+Author: jennasaleh <jas009@utexas.edu>
+Date:   Sun Jun 14 19:45:35 2015 -0500
+
+    Initial commit
