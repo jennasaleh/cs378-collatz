@@ -21,7 +21,7 @@
 #include "Collatz.h"
 
 // ----
-// main
+// main  
 // ----
 
 int main () {
