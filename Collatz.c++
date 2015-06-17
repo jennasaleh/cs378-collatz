@@ -13,6 +13,7 @@
 #include <sstream>  // istringstream
 #include <string>   // getline, string
 #include <utility>  // make_pair, pair
+#include <cmath>    // abs
 
 #include "Collatz.h"
 
@@ -33,31 +34,65 @@ pair<int, int> collatz_read (const string& s) {
 // collatz_eval
 // ------------
 
-int collatz_eval (int i, int j) {
-    /* <your code>
+int collatz_eval (int i, int j) 
+{
+    // error checking and weird cases
+    assert(i > 0);
+    assert(j > 0);
+    assert(i < 1000000);
+    assert(j < 1000000);
+
+    if( (i==1) & (j==1))
+        return 1;
+
+    int temp;
     int k;
-    int currentcycle;
-    int maxcycle;
-    k = j - i + 1;
-    currentcycle = 0;
+    int currentcycle, maxcycle;
+
+    currentcycle = 1;
     maxcycle = 0;
-    for(i; i <= k; i++)
+
+    // if second value is lower, switch values of i and j
+    if(j < i)
     {
-        if(i==1)
+        temp = i;
+        i = j;
+        j = temp;
+    }
+
+    while (i <= j)
+    {
+        k = i;
+
+        while (k != 1)
         {
-            currentcycle 1;
-        }
-        else if((i % 2) != 0)
-        {
-            i = 3 * i + 1;
-        }
-        else 
-        {
-            i = i / 2;
+            if((k % 2) != 0)
+            {
+                k = 3 * k + 1;
+                currentcycle++;
+            }
+            else 
+            {
+                k = k / 2;
+                currentcycle++;
+            } 
         }
 
-    } */
-    return 1;
+        if(k == 1)
+        {   
+
+            if(currentcycle > maxcycle)
+            {
+                maxcycle = currentcycle;  
+            } 
+        }     
+
+        currentcycle = 1;         
+        i++;  
+    }
+
+    return maxcycle;
+
 }
 
 // -------------

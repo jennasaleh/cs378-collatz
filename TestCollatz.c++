@@ -83,15 +83,14 @@ TEST(CollatzFixture, eval_6) {
     const int v = collatz_eval(200, 100);
     ASSERT_EQ(125, v);}
 
-// test for range 1 to one million
 TEST(CollatzFixture, eval_7) {
-    const int v = collatz_eval(1, 999999);
-    ASSERT_EQ(525, v);}
+    const int v = collatz_eval(1, 2);
+    ASSERT_EQ(2, v);}
 
-// test for range one million to 1
 TEST(CollatzFixture, eval_8) {
-    const int v = collatz_eval(999999, 1);
-    ASSERT_EQ(525, v);}
+    const int v = collatz_eval(32978, 35064);
+    ASSERT_EQ(311, v);}
+
 
 
 // -----
@@ -129,10 +128,16 @@ TEST(CollatzFixture, solve_1) {
     ASSERT_EQ("1 10 20\n100 200 125\n201 210 89\n900 1000 174\n", w.str());}
 
 TEST(CollatzFixture, solve_2) {
-    istringstream r("1 1\n200 100\n1 999999\n999999 1\n");
+    istringstream r("1 1\n200 100\n1 2\n");
     ostringstream w;
     collatz_solve(r, w);
-    ASSERT_EQ("1 1 1\n200 100 125\n1 999999 525\n999999 1 525\n", w.str());}
+    ASSERT_EQ("1 1 1\n200 100 125\n1 2 2\n", w.str());}
+
+TEST(CollatzFixture, solve_3) {
+    istringstream r("32978 35064\n");
+    ostringstream w;
+    collatz_solve(r, w);
+    ASSERT_EQ("32978 35064 311\n", w.str());}
 
 /*
 % ls -al /usr/include/gtest/
