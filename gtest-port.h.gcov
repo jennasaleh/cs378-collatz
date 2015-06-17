@@ -897,9 +897,15 @@
         -:  892:  typedef T element_type;
         -:  893:
         -:  894:  explicit scoped_ptr(T* p = NULL) : ptr_(p) {}
+<<<<<<< HEAD
 function _ZN7testing8internal10scoped_ptrISsED2Ev called 8 returned 100% blocks executed 100%
 function _ZN7testing8internal10scoped_ptrISt18basic_stringstreamIcSt11char_traitsIcESaIcEEED2Ev called 0 returned 0% blocks executed 0%
         8:  895:  ~scoped_ptr() { reset(); }
+=======
+function _ZN7testing8internal10scoped_ptrISsED2Ev called 23 returned 100% blocks executed 100%
+function _ZN7testing8internal10scoped_ptrISt18basic_stringstreamIcSt11char_traitsIcESaIcEEED2Ev called 0 returned 0% blocks executed 0%
+       23:  895:  ~scoped_ptr() { reset(); }
+>>>>>>> dev
 call    0 returned 100%
 call    1 never executed
         -:  896:
@@ -916,9 +922,15 @@ function _ZNK7testing8internal10scoped_ptrISsE3getEv called 0 returned 0% blocks
         -:  905:  }
         -:  906:
 function _ZN7testing8internal10scoped_ptrISt18basic_stringstreamIcSt11char_traitsIcESaIcEEE5resetEPS6_ called 0 returned 0% blocks executed 0%
+<<<<<<< HEAD
 function _ZN7testing8internal10scoped_ptrISsE5resetEPSs called 8 returned 100% blocks executed 25%
         8:  907:  void reset(T* p = NULL) {
         8:  908:    if (p != ptr_) {
+=======
+function _ZN7testing8internal10scoped_ptrISsE5resetEPSs called 23 returned 100% blocks executed 25%
+       23:  907:  void reset(T* p = NULL) {
+       23:  908:    if (p != ptr_) {
+>>>>>>> dev
 branch  0 never executed
 branch  1 never executed
 branch  2 taken 0% (fallthrough)
@@ -941,7 +953,11 @@ call    6 never executed
         -:  911:      }
     #####:  912:      ptr_ = p;
         -:  913:    }
+<<<<<<< HEAD
         8:  914:  }
+=======
+       23:  914:  }
+>>>>>>> dev
         -:  915:
         -:  916: private:
         -:  917:  T* ptr_;
