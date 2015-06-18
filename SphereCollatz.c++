@@ -61,30 +61,21 @@ int collatz_eval (int i, int j)
 
 
     /******************* CACHE *******************/
-<<<<<<< HEAD
     int cache[SIZE] = {0};
-=======
     #ifdef SIZE
     int cache[SIZE] = {0};
     #endif
->>>>>>> dev
 
     /*******************************************************/
 
     while (i <= j) 
     {
-<<<<<<< HEAD
-=======
         #ifdef SIZE
->>>>>>> dev
         if((i < SIZE) && (cache[i] != 0))
         {
             return cache[i];
         }
-<<<<<<< HEAD
-=======
         #endif
->>>>>>> dev
 
         k = i;
 
@@ -107,18 +98,13 @@ int collatz_eval (int i, int j)
             if(currentcycle > maxcycle)
             {
                 maxcycle = currentcycle; 
-<<<<<<< HEAD
-=======
+
                 #ifdef SIZE
->>>>>>> dev
                 if(i < SIZE)
                 {
                     cache[i] = maxcycle;
                 }
-<<<<<<< HEAD
-=======
                 #endif
->>>>>>> dev
             } 
         }     
         currentcycle = 1;         
